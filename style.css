@@ -463,8 +463,12 @@ a:hover {
     input [type=radio] {
         margin: 5px auto;
     }
+    label {
+        width: 200px;
+    }
     label p{
         font-size: 16px;
+        width: 100%;
     }
     .aroundAnswers {
         margin: 10px auto;
@@ -477,6 +481,17 @@ a:hover {
         position: absolute;
         top: 12%;
         left: 0;
+    }
+    .announce {
+        width: 100%;
+        position: absolute;
+        z-index: 3;
+        display: flex;
+        justify-content: center;
+        top: 40%;
+        left: 0;
+        font-weight: 600;
+        color: #f9a216;
     }
     #pitanje {
         margin: 0 auto;
