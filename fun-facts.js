@@ -134,7 +134,6 @@ const ff4 = [
 
 allFFs.push(ff1, ff2, ff3, ff4);
 
-localStorage.removeItem("home");
    
 let k;
 if(localStorage.getItem("koef")) {
