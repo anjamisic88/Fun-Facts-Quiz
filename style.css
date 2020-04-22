@@ -90,9 +90,7 @@ a:hover {
 .quest {
     width: 100%;
 }
-/* #forma .aroundAnswers input:checked ~ .lab .quest {
-    color: #e08f0d;
-} */
+
 #submit {
     width: 120px;
     margin: 0 auto;
@@ -468,11 +466,17 @@ a:hover {
     label p{
         font-size: 16px;
     }
+    .aroundAnswers {
+        margin: 10px auto;
+        padding-left: 20%;
+        width: 100%;
+        position: relative;
+    }
     .aroundAnswers input {
         margin-right: 20px;
         position: absolute;
         top: 12%;
-        left: 20%;
+        left: 0;
     }
     #pitanje {
         margin: 0 auto;
