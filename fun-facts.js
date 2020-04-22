@@ -78,7 +78,7 @@ const ff3 = [
         text: "In 1859, on San Juan Island citizens from both countries were located. Historic UK explains that 'a pig belonging to the British accidentally wandered onto the land of Lyman Cutlar, an American farmer. When Cutlar noticed the pig eating some of his potatoes he killed the pig.' Things spread into the rest of the community and got to the point where the governor of British Columbia sent three warships to the area. British Navy Admiral Robert L. Baynes arrived and ended things by stating that he would not 'involve two great nations in a war over a squabble about a pig.'"
     },
     f3 = {
-        title: "There's a Scottish term for hesitating when introducing someone because you've forgotten their name",
+        title: "There's a Scottish term for hesitating because you've forgotten someone's name",
         src: "assets/tartle.jpg",
         text: "We've all likely been there: You run into someone and you go to introduce them to whoever you're with and you can't remember their name for the life of you! There happens to be a Scottish term for this awkward hesitation. So if you (unfortunately) ever find yourself in that situation you can say, 'Pardon my tartle!'"
     },
