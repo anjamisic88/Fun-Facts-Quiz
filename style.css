@@ -280,6 +280,7 @@ a:hover {
     text-align: center;
     font-size: 28px;
     font-weight: 700;
+    padding-top: 3%;
 }
 .zaKontent {
     display: flex;
@@ -458,12 +459,11 @@ a:hover {
     #porukica {
         margin: 10px auto;
         color: #f9a216;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
     }
     input [type=radio] {
         margin: 5px auto;
-        transform: scale(2);
     }
     label p{
         font-size: 16px;
@@ -494,7 +494,8 @@ a:hover {
         text-align: center;
         font-size: 16px;
         font-weight: 700;
-        margin-top: 3%;
+        padding-top: 3%;
+        margin: 0;
     }
     .zaKontent {
         display: flex;
@@ -620,8 +621,8 @@ a:hover {
         margin-bottom: 4%;
     }
     .ceoHome h3 {
-        margin-top: 8%;
-        margin-left: 60%;
+        margin-top: 10%;
+        margin-left: 70%;
     }
     .ceoHome h1 {
         margin: 0;
