@@ -492,9 +492,9 @@ a:hover {
     .divZaNaslov {
         width: 100%;
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 700;
-        margin-top: 5%;
+        margin-top: 3%;
     }
     .zaKontent {
         display: flex;
@@ -511,7 +511,7 @@ a:hover {
         margin-bottom: 10%;
     }
     #text {
-        font-size: 12px;
+        font-size: 16px;
         margin: 0 auto;
         text-align: justify;
     }
