@@ -13,9 +13,9 @@
     <div class="biggest">
         <header>
             <div class="navigacija">
-                <a href="home.html"><p>Home</p></a>
-                <a href="quiz.html"><p>Quiz</p></a>
-                <a href="fun-facts.html"><p>Fun Facts</p></a>
+                <a href="home.html" class="linkovi"><p class="pOdLinka">Home</p></a>
+                <a href="quiz.html" class="linkovi"><p class="pOdLinka">Quiz</p></a>
+                <a href="fun-facts.html" class="linkovi"><p class="pOdLinka">Fun Facts</p></a>
             </div>
         </header>
     
@@ -26,10 +26,14 @@
             <div class="zaKontent">
                 <img src="https://via.placeholder.com/549x360" id="slika">
                 <p id="text"></p>
+                <div class="divZaDugmad">
+                    <button class="next" id="nextFF" onclick="nextFF()">Next</button>
+                    <button class="hidden" id="finishFF"><a href="quiz.html"><p>New Quiz</p></a></button>
+                </div>
             </div>
-            <button class="next" id="nextFF" onclick="nextFF()">Next</button>
-            <button class="hidden" id="finishFF"><a href="quiz.html"><p>New Quiz</p></a></button>
+
         </div>
+
     
         <footer>
             <div class="futer">Copyright 2020 anj_m</div>

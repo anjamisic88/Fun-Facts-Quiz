@@ -75,7 +75,7 @@ const ff3 = [
     f2 = {
         title: "The U.S. almost went to war with Canada over a pig",
         src: "assets/pig.jpg",
-        text: "In 1859, on San Juan Island citizens from both countries were located. Historic UK explains that 'a pig belonging to the British accidentally wandered onto the land of Lyman Cutlar, an American farmer. When Cutlar noticed the pig eating some of his potatoes he killed the pig.' Things spread into the rest of the community and got to the point where the governor of British Columbia sent three warships to the area. The two sides continued to increase their military force over the following month until British Navy Admiral Robert L. Baynes arrived and ended things by stating that he would not 'involve two great nations in a war over a squabble about a pig.'"
+        text: "In 1859, on San Juan Island citizens from both countries were located. Historic UK explains that 'a pig belonging to the British accidentally wandered onto the land of Lyman Cutlar, an American farmer. When Cutlar noticed the pig eating some of his potatoes he killed the pig.' Things spread into the rest of the community and got to the point where the governor of British Columbia sent three warships to the area. British Navy Admiral Robert L. Baynes arrived and ended things by stating that he would not 'involve two great nations in a war over a squabble about a pig.'"
     },
     f3 = {
         title: "There's a Scottish term for hesitating when introducing someone because you've forgotten their name",
@@ -90,7 +90,7 @@ const ff3 = [
     f5 = {
         title: "A mermaid 'documentary' once fooled so many people that the U.S. government had to issue a statement",
         src: "assets/mermaid.jpg",
-        text: "In 2013, Animal Planet aired Mermaids: The New Evidence, a documentary—or rather, a mockumentary—that 'proved' the half-human-half-fish beings exist. And while the program was fake, plenty of the 3.6 million viewers that watched believed that the fictional claims were real. In fact, so many people were fooled that the U.S. government's National Oceanic and Atmospheric Administration released a statement on its website addressing the confusion, saying: 'Mermaids: The New Evidence is just entertainment. No evidence of aquatic humanoids has ever been found.'"
+        text: "In 2013, Animal Planet aired Mermaids: The New Evidence, that 'proved' the half-human-half-fish beings exist. Plenty of the 3.6 million viewers that watched believed that the fictional claims were real. In fact, so many people were fooled that the U.S. government's National Oceanic and Atmospheric Administration released a statement on its website addressing the confusion, saying: 'Mermaids: The New Evidence is just entertainment. No evidence of aquatic humanoids has ever been found.'"
     },
     f6 = {
         title: "Chinese police use geese squads",
