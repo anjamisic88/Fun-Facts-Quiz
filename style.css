@@ -1,0 +1,457 @@
+body {
+    height: 100vh !important;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 24px !important;
+    letter-spacing: 1.5px;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.biggest {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    height: 100vh;
+    background-color: #0e4d66;
+}
+.navigacija {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #003e57;
+}
+a {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+a p {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover p {
+    color: #f9a216;
+    text-decoration: none !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+.ceoKviz {
+    margin: 0 auto;
+    height: 75%;
+    margin-top: 50px;
+    background-color: #003e57;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(19, 22, 37);
+}
+#labForName {
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.name {
+    width: 350px;
+    height: 45px;
+    background-color: white;
+    margin: 60px auto;
+    border-radius: 10px;
+    text-align: center;
+    border: 0;
+    font-size: 26px;
+    font-weight: 600;
+    color: #003e57;
+    padding: 5px;
+}
+.aroundAnswers input {
+    margin-right: 20px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.aroundAnswers {
+    margin: 10px auto;
+    padding-left: 30%;
+    width: 100%;
+    position: relative;
+}
+.quest {
+    width: 100%;
+}
+/* #forma .aroundAnswers input:checked ~ .lab .quest {
+    color: #e08f0d;
+} */
+#submit {
+    width: 120px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 30px;
+    background-color: #f9a216;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+#start {
+    width: 120px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 50px;
+    background-color: #f9a216;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.hidden {
+    display: none;
+}
+.shown {
+    display: inline-block;
+}
+.greenLetters {
+    color: rgb(4, 197, 4);
+}
+.redLetters {
+    color: #e08f0d;
+}
+.formulja {
+    margin: 40px auto;
+    width: 60%;
+    margin: 0 auto;
+}
+.formaHide {
+    display: none;
+}
+.formaShow {
+    display: block;
+}
+
+.announce {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    top: 190px;
+    left: 0;
+    font-weight: 600;
+    color: #f9a216;
+}
+#pitanje {
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+.futer {
+    height: 60px;
+    width: 100%;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    background-color: #003e57;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    color: white;
+}
+#obavestenje {
+    margin: 0 auto;
+    font-size: 19px;
+    font-weight: 600;
+}
+#rezultat {
+    margin: 0 auto;
+}
+#noAnswers {
+    margin: 0 auto;
+    font-size: 16px;
+    color: #f9a216;
+}
+#note {
+    margin: 0 auto;
+    font-size: 16px;
+}
+.next {
+    background-color: transparent;
+    margin-left: 90%;
+    margin-bottom: 20px;
+    width: 100px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+.next:hover {
+    color: #0e4d66;
+}
+#finish {
+    background-color: #f9a216;
+    margin-left: 90%;
+    margin-bottom: 20px;
+    width: 100px;
+    border: 0;
+    color: #003e57;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+#finishFF {
+    background-color: #f9a216;
+    margin-left: 90%;
+    margin-bottom: 20px;
+    width: 100px;
+    border: 0;
+    color: #003e57;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+#finishFF a p {
+    color: white;
+    margin: 0 auto;
+}
+#finishFF a {
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
+#finishFF:hover a p{
+    color: #0e4d66;
+    margin: 0 auto;
+    
+}
+.hoverClass {
+    background-color: #0e4d66;
+}
+.divZaInput {
+    margin: 0 auto;
+    text-align: center;
+}
+#porukica {
+    margin: 40px auto;
+    color: #f9a216;
+    font-size: 20px;
+    font-weight: 600;
+}
+#idiNaFF {
+    margin: 10px auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+#FF {
+    margin: 0 auto;
+    color: #f9a216;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 45%;
+}
+/* FUN FACTS */
+
+.ceoPrikaz {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 75%;
+    background-color: #003e57;
+    width: 70%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(19, 22, 37);
+}
+.divZaNaslov {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.zaKontent {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 90%;
+}
+#slika {
+    width: 50%;
+    min-width: 50%;
+}
+#text {
+    font-size: 22px;
+    margin: 0 42px;
+}
+#nextFF {
+    margin-bottom: 20px !important;
+}
+#naslov {
+    margin-top: 20px;
+}
+
+/* HOME */
+
+.ceoHome {
+    margin: 0 auto;
+    height: 75%;
+    margin-top: 50px;
+    background-color: #003e57;
+    width: 70%;
+    padding: 3% 5%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(19, 22, 37);
+    position: relative;
+    
+}
+.ceoHome p {
+    font-size: 25px;
+    margin-bottom: 4%;
+}
+.ceoHome h2 {
+    margin-top: 10%;
+    margin-left: 60%;
+}
+.ceoHome h1 {
+    margin-bottom: 3%;
+}
+.kviz {
+    margin: 0;
+    display: inline;
+    color: #f9a216;
+    font-weight: 600;
+}
+.kviz:hover {
+    color: #0e4d66;
+}
+.smajli {
+    float: left;
+    width: 20%;
+    position: absolute;
+    bottom: 5%;
+    left: 17%;
+}
+
+/* RESPONSIVE: */
+
+@media(max-width: 600px) {
+    body {
+        height: 100vh !important;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 18px !important;
+        letter-spacing: 1.5px;
+        font-family: 'Baloo Paaji 2', cursive;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+    .ceoKviz {
+        margin: 0 auto;
+        height: 100%;
+        margin-top: 0;
+        margin-bottom: 10px;
+        background-color: #0e4d66;
+        width: 100%;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        flex-direction: column;
+        border-radius: 0;
+        box-shadow: 0;
+    }
+    .next {
+        background-color: transparent;
+        margin-left: 80%;
+        margin-bottom: 10px;
+        width: 100px;
+        border: 0;
+        color: white;
+        font-size: 20px;
+    }
+    .name {
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        margin: 60px auto;
+        border-radius: 10px;
+        text-align: center;
+        border: 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: #003e57;
+        padding: 5px;
+    }
+    #finish {
+        background-color: #f9a216;
+        margin-left: 70%;
+        margin-bottom: 0;
+        width: 100px;
+        border: 0;
+        color: #003e57;
+        font-size: 20px;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    #FF {
+        margin: 0 auto;
+        color: #f9a216;
+        font-size: 22px;
+        font-weight: 600;
+        margin-left: 40%;
+    }
+    .futer {
+        height: 25px;
+        width: 100%;
+        font-size: 8px;
+        position: absolute;
+        bottom: 0;
+        background-color: #003e57;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        color: white;
+    }
+    .forma {
+        margin: 5px auto;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #start {
+        width: 30%;
+        margin: 0 auto;
+        color: white;
+        margin-top: 50px;
+        background-color: #f9a216;
+        padding: 10px;
+        border: 0;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    #porukica {
+        margin: 10px auto;
+        color: #f9a216;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    input [type=radio] {
+        margin: 5px auto;
+        transform: scale(2);
+    }
+    label p{
+        font-size: 16px;
+    }
+}

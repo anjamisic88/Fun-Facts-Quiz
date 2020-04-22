@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="biggest">
+    <header>
+        <div class="navigacija">
+            <a href="home.html"><p>Home</p></a>
+            <a href="quiz.html"><p>Quiz</p></a>
+            <a href="fun-facts.html"><p>Fun Facts</p></a>
+        </div>
+    </header>
+
+    <div class="ceoKviz">
+        <div class="announce"><p class="hidden" id="note">Please, enter your name!</p></div>
+        <p id="welcome" class="hidden"></p>
+        <div class="divZaInput" id="divZaInput">
+            <p id="labForName">Enter your name:</p>
+            <input type="text" id="name" class="name">
+        </div>
+        <button class="next" id="start" onclick="start()">Start</button>
+        <p id="pitanje" class="hidden"></p>
+        <p id="rezultat"></p>
+        <p id="porukica"></p>
+        <div  id="idiNaFF">
+            <p id="obavestenje"  class="hidden">More about the answers you can find at </p>
+            <a href="fun-facts.html"  class="hidden" id="FF">Fun Facts</a>
+        </div>
+        <form class="formulja formaHide" id="forma">
+            <div class="aroundAnswers">
+                <input type="radio" id="a" name="odg" value="a">
+                <label for="a" class="lab"><p id="podA" class="quest"></p></label>
+            </div>
+            <div class="aroundAnswers">
+                <input type="radio" id="b" name="odg" value="b">
+                <label for="b" class="lab"><p id="podB" class="quest"></p></label>
+            </div>
+            <div class="aroundAnswers">
+                <input type="radio" id="c" name="odg" value="c">
+                <label for="c" class="lab"><p id="podC" class="quest"></p></label>
+            </div>
+        </form>
+        <p id="noAnswers"> </p>
+        <button class="hidden submit" id="submit" onclick="submit()">Check</button>
+        <button class="hidden next" id="next" onclick="next()">Next</button>
+        <button class="hidden" id="finish" onclick="location.reload()">New Quiz</button>
+    </div>
+
+    <footer>
+        <div class="futer">Copyright 2020 anj_m</div>
+    </footer>
+</div>
+<script src="main.js"></script>   
+</body>
+</html>
